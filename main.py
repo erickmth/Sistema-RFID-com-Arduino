@@ -13,7 +13,7 @@ import tempfile
 import atexit
 
 # ---------------- CONFIGURAÇÕES ----------------
-PORTA_SERIAL = 'COM6'  # Substitua pela porta correta do Arduino
+PORTA_SERIAL = 'COM6'  
 BAUD_RATE = 9600
 
 # IDs cadastrados
@@ -933,3 +933,4 @@ except serial.SerialException:
 reset_inactivity_timer()
 
 root.mainloop()
+
